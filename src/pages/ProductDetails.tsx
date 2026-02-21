@@ -8,14 +8,25 @@ export const ProductDetails = () => {
   const { slug } = useParams();
   const product = bouquets.find((b) => b.slug === slug);
 
+  if (!product) {
+    return (
+      <div className="flex flex-col items-center justify-center min-h-[60vh] gap-4">
+        <h2 className="text-2xl font-bold">Produk tidak ditemukan</h2>
+        <Link to="/catalog" className="text-primary hover:underline">
+          Kembali ke Katalog
+        </Link>
+      </div>
+    );
+  }
+
   const productDetails = {
-    title: product?.title,
-    price: product?.price,
-    description: product?.desc,
-    composition: product?.composition,
-    size: product?.size,
-    wrapping: product?.wrapper,
-    img: product?.img,
+    title: product.title,
+    price: product.price,
+    description: product.desc,
+    composition: product.composition,
+    size: product.size,
+    wrapping: product.wrapper,
+    img: product.img,
   };
 
   const handleOrder = () => {
@@ -165,7 +176,10 @@ export const ProductDetails = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <button className="w-full py-4 px-4 rounded-xl bg-primary hover:bg-primary/90 text-white font-bold text-sm transition-colors flex items-center justify-center gap-2" onClick={handleOrder}>
+            <button
+              className="w-full py-4 px-4 rounded-xl bg-primary hover:bg-primary/90 text-white font-bold text-sm transition-colors flex items-center justify-center gap-2"
+              onClick={handleOrder}
+            >
               <span className="material-symbols-outlined text-[18px]">
                 chat
               </span>
@@ -205,7 +219,7 @@ export const ProductDetails = () => {
           </Link>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {(bouquets as any[]).slice(0, 4).map((item) => (
+          {bouquets.slice(0, 4).map((item) => (
             <div key={item.title} className="group">
               <div className="relative aspect-[4/5] rounded-2xl overflow-hidden mb-4 bg-gray-100">
                 <img

@@ -1,7 +1,30 @@
 import banner1 from "/images/banners/banner-1.webp";
 import banner2 from "/images/banners/banner-2.webp";
 
-export const products = [
+export interface Product {
+  title: string;
+  price: string;
+  desc: string;
+  img: string;
+  badge?: string;
+  badgeColor?: string;
+}
+
+export interface Bouquet {
+  title: string;
+  price: string;
+  desc: string;
+  img: string;
+  badge?: string;
+  badgeColor?: string;
+  categories: string[];
+  slug: string;
+  size: string;
+  composition: string;
+  wrapper: string;
+}
+
+export const products: Product[] = [
   {
     title: "Red Rose Delight",
     price: "$45.00",
@@ -58,7 +81,7 @@ export const products = [
   },
 ];
 
-export const bouquets = [
+export const bouquets: Bouquet[] = [
   {
     title: "Creamy Pink",
     price: "Rp 75.000 - Rp 150.000",
@@ -146,7 +169,7 @@ Cocok banget untuk hadiah wisuda, ulang tahun, anniversary, atau bentuk apresias
     Daun dan aksen kupu-kupu dekoratif,
     Kartu ucapan mini (bisa custom nama & pesan),
     Pita satin premium,
-    (Nominal uang dan jumlah lembar bisa disesuaikan dengan budget.)`,
+    (Nominal uang dan jumlah lembar bisa disesuaikan with budget.)`,
     wrapper: `Wrapping premium warna nude / mocha,
     Aksen list silver elegan,
     Lapisan pelindung transparan,
