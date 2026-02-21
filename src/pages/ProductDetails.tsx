@@ -30,7 +30,7 @@ export const ProductDetails = () => {
   };
 
   const handleOrder = () => {
-    const link = `https://sediakado.vercel.app/product/${product.slug}.html`;
+    const link = `https://sediakado.vercel.app/products/${product.slug}.html`;
 
     const message = `
     Halo Kak 🌷
