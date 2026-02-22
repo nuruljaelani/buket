@@ -54,11 +54,11 @@ export const Home = () => {
             <img
               alt="A vibrant bouquet of pink peonies and eucalyptus wrapped in brown paper"
               className="w-full h-full object-cover transform transition-transform duration-700 hover:scale-105"
-              src="/images/products/hand-buket.png"
+              src="/images/hand-buket.webp"
             />
             {/* Floating Badge */}
-            <div className="absolute bottom-6 left-6 right-6 bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm p-4 rounded-xl shadow-lg border border-gray-100 dark:border-gray-800">
-              <div className="flex items-center justify-between">
+            <div className="absolute bottom-6 left-6 right-6 bg-white/10 dark:bg-gray-900/10 backdrop-blur-sm p-4 rounded-xl shadow-lg border border-gray-100 dark:border-gray-800">
+              {/* <div className="flex items-center justify-between">
                 <div>
                   <p className="font-bold text-text-main dark:text-white">
                     Buket Uang & Bunga
@@ -68,7 +68,9 @@ export const Home = () => {
                 <button className="size-10 bg-primary rounded-full flex items-center justify-center text-white hover:bg-primary/90 transition-colors">
                   <span className="material-symbols-outlined">add</span>
                 </button>
-              </div>
+              </div> */}
+              <div className="text-center text-text-main dark:text-white text-xl font-bold">Pilihan Terbaik <span className="text-primary">Untuk Momen Spesialmu</span></div>
+
             </div>
           </div>
         </div>
@@ -154,12 +156,12 @@ export const Home = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Collection Card 1 */}
-          <div className="group cursor-pointer">
+          <Link to="/product/creamy-pink" className="group cursor-pointer">
             <div className="relative overflow-hidden rounded-2xl aspect-[3/4] mb-4">
               <img
                 alt="Bright yellow and pink tulip arrangement in a vase"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                src="/images/products/buket-1.png"
+                src="/images/buket-1.webp"
               />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300"></div>
               <button className="absolute bottom-4 right-4 bg-white text-text-main p-3 rounded-full shadow-lg opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 hover:bg-primary hover:text-white">
@@ -170,14 +172,14 @@ export const Home = () => {
               Buket Creamy
             </h3>
             <p className="font-bold text-lg text-primary">Rp 70.000 - Rp 150.000</p>
-          </div>
+          </Link>
           {/* Collection Card 2 */}
-          <div className="group cursor-pointer">
+          <Link to="/product/pinky-doll" className="group cursor-pointer">
             <div className="relative overflow-hidden rounded-2xl aspect-[3/4] mb-4">
               <img
                 alt="Elegant bouquet of red roses and white lilies"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                src="/images/products/buket-2.png"
+                src="/images/buket-2.webp"
               />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300"></div>
               <button className="absolute bottom-4 right-4 bg-white text-text-main p-3 rounded-full shadow-lg opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 hover:bg-primary hover:text-white">
@@ -188,14 +190,14 @@ export const Home = () => {
               Romantic Gestures
             </h3>
             <p className="font-bold text-lg text-primary">Rp 70.000 - Rp 200.000</p>
-          </div>
+          </Link>
           {/* Collection Card 3 */}
-          <div className="group cursor-pointer">
+          <Link to="/product/pinky-doll" className="group cursor-pointer">
             <div className="relative overflow-hidden rounded-2xl aspect-[3/4] mb-4">
               <img
                 alt="Soft white flower arrangement with greenery for sympathy"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                src="/images/products/buket-10.png"
+                src="/images/buket-3.webp"
               />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300"></div>
               <button className="absolute bottom-4 right-4 bg-white text-text-main p-3 rounded-full shadow-lg opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 hover:bg-primary hover:text-white">
@@ -206,7 +208,7 @@ export const Home = () => {
               Sympathy & Care
             </h3>
             <p className="font-bold text-lg text-primary">Rp 70.000 - Rp 200.000</p>
-          </div>
+          </Link>
         </div>
       </section>
 

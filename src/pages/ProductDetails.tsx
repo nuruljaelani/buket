@@ -211,16 +211,16 @@ export const ProductDetails = () => {
           <h2 className="text-3xl font-bold dark:text-white">
             You May Also Like
           </h2>
-          <Link
+          {/* <Link
             to="/catalog"
             className="text-primary font-bold hover:underline"
           >
             View All
-          </Link>
+          </Link> */}
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {bouquets.slice(0, 4).map((item) => (
-            <div key={item.title} className="group">
+            <Link to={`/product/${item.slug}`} key={item.title} className="group">
               <div className="relative aspect-[4/5] rounded-2xl overflow-hidden mb-4 bg-gray-100">
                 <img
                   src={item.img}
@@ -232,7 +232,7 @@ export const ProductDetails = () => {
                 {item.title}
               </h3>
               <p className="text-primary font-bold">{item.price}</p>
-            </div>
+            </Link>
           ))}
         </div>
       </section>

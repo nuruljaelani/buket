@@ -7,16 +7,16 @@ export const Footer = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <span className="material-symbols-outlined text-primary text-2xl">
+              {/* <span className="material-symbols-outlined text-primary text-2xl">
                 local_florist
-              </span>
+              </span> */}
+              <img src="/logo.png" alt="Logo" className="h-8 w-8" />
               <span className="font-bold text-lg dark:text-white">
-                Bloom & Bliss
+                Sedia Kado
               </span>
             </div>
             <p className="text-text-muted text-sm leading-relaxed mb-6">
-              Delivering happiness one petal at a time. Sourced locally,
-              arranged with love.
+              Menyediakan berbagai macam kado untuk berbagai macam acara.
             </p>
             <div className="flex gap-4">
               <a
@@ -53,7 +53,7 @@ export const Footer = () => {
               </a>
             </div>
           </div>
-          <div>
+          {/* <div>
             <h4 className="font-bold text-text-main dark:text-white mb-4">
               Shop
             </h4>
@@ -142,7 +142,7 @@ export const Footer = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
         <div className="border-t border-[#f4f0f2] dark:border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-text-muted">
           <p>© 2026 Bloom & Bliss. All rights reserved.</p>
