@@ -2,6 +2,15 @@ import { Icon } from "@iconify-icon/react";
 import { Facebook, Instagram } from "lucide-react";
 
 export const Contact = () => {
+
+  const chatOnWhatsApp = () => {
+    const message = `
+    Halo Kak 🌷
+    
+    Saya ingin memesan buket khusus
+    `;
+    window.open(`https://wa.me/6285603840608?text=${encodeURIComponent(message)}`, "_blank");
+  };
   return (
     <div className="flex-grow w-full max-w-7xl mx-auto px-4 md:px-10 py-8 md:py-12">
       {/* Hero / Intro Section */}
@@ -128,7 +137,10 @@ export const Contact = () => {
                   Butuh respon cepat untuk keadaan darurat bunga? Chat langsung dengan florist kami.
                 </p>
               </div>
-              <button className="bg-white text-primary h-12 px-6 rounded-xl font-bold text-base w-full flex items-center justify-center gap-2 hover:bg-[#fdfbfb] transition-colors mt-2">
+              <button 
+                className="bg-white text-primary h-12 px-6 rounded-xl font-bold text-base w-full flex items-center justify-center gap-2 hover:bg-[#fdfbfb] transition-colors mt-2"
+                onClick={chatOnWhatsApp}
+                >
                 <span>Mulai Chat</span>
                 <span className="material-symbols-outlined">arrow_outward</span>
               </button>
@@ -152,8 +164,8 @@ export const Contact = () => {
               },
               {
                 icon: "call",
-                label: "Dukungan Telepon",
-                value: "+62 812-3456-7890",
+                label: "Hubungi Kami",
+                value: "+62 856-0384-0608",
               },
             ].map((item) => (
               <div

@@ -83,7 +83,7 @@ export const products: Product[] = [
 
 export const bouquets: Bouquet[] = [
   {
-    title: "Creamy Pink",
+    title: "Sweet Pastel Bloom Bouquet",
     price: "Rp 75.000 - Rp 150.000",
     desc: `Buket cantik dengan sentuhan warna pastel yang lembut dan elegan. Perpaduan bunga pink, peach, putih, dan sentuhan gold di wrapping-nya bikin tampilannya mewah tapi tetap manis. Cocok banget untuk hadiah ulang tahun, anniversary, wisuda, atau sekadar bilang “aku sayang kamu”.
 Buket ini punya vibes hangat, romantis, dan classy — bikin siapa pun yang nerima langsung senyum-senyum sendiri 🤍✨`,
@@ -91,7 +91,7 @@ Buket ini punya vibes hangat, romantis, dan classy — bikin siapa pun yang neri
     badge: "Bestseller",
     badgeColor: "text-primary",
     categories: ["anniversary", "birthday"],
-    slug: "creamy-pink",
+    slug: "sweet-pastel-bloom",
     size: "45cm x 35cm",
     composition: `Lily pink & lily putih
     Mawar coklat / nude,
@@ -106,7 +106,7 @@ Buket ini punya vibes hangat, romantis, dan classy — bikin siapa pun yang neri
     Ukuran pas untuk dipeluk dan difoto 📸✨`,
   },
   {
-    title: "Pinky Doll",
+    title: "Graduation Teddy Rose Bouquet",
     price: "Rp 70.000 - Rp 150.000",
     desc: `Buket manis dengan sentuhan romantis dan playful yang bikin siapa pun langsung gemas 💕
 Perpaduan teddy bear wisuda yang lucu dengan rangkaian mawar merah & pink lembut menciptakan kesan hangat, bangga, dan penuh cinta.
@@ -115,7 +115,7 @@ Cocok banget untuk hadiah wisuda, ulang tahun, anniversary, atau bentuk apresias
     badge: "Bestseller",
     badgeColor: "text-primary",
     categories: ["anniversary", "birthday", "graduation"],
-    slug: "pinky-doll",
+    slug: "graduation-teddy-rose",
     composition: `1 Teddy bear mini tema wisuda (dengan topi toga),
     Mawar merah premium,
     Mawar pink lembut,
@@ -134,14 +134,16 @@ Cocok banget untuk hadiah wisuda, ulang tahun, anniversary, atau bentuk apresias
     Finishing rapi, mewah, dan terlihat eksklusif 💖`,
   },
   {
-    title: "Medium Doll",
+    title: "Midnight Graduation Teddy Bouquet",
     price: "Rp 70.000 - Rp 150.000",
-    desc: "Buket uang puluhan ribu.",
+    desc: `Buket manis dengan sentuhan romantis dan playful yang bikin siapa pun langsung gemas 💕
+Perpaduan teddy bear wisuda yang lucu dengan rangkaian mawar merah & pink lembut menciptakan kesan hangat, bangga, dan penuh cinta.
+Cocok banget untuk hadiah wisuda, ulang tahun, anniversary, atau bentuk apresiasi spesial untuk orang tersayang. Buket ini bukan cuma cantik difoto, tapi juga jadi kenangan manis yang bisa disimpan lama ✨`,
     img: "/images/buket-4.webp",
     badge: "Bestseller",
     badgeColor: "text-primary",
     categories: ["graduation"],
-    slug: "medium-doll",
+    slug: "midnight-graduation-teddy-bouquet",
     size: `Tinggi: ±45–50 cm
     Lebar: ±35–40 cm
     Ukuran pas untuk dipeluk dan difoto 📸✨`,
@@ -150,7 +152,7 @@ Cocok banget untuk hadiah wisuda, ulang tahun, anniversary, atau bentuk apresias
     wrapper: "Premium Korean Wrapping Paper",
   },
   {
-    title: "Brown Money",
+    title: "Luxury Money Bouquet – Elegant Edition",
     price: "Rp 70.000 - Rp 150.000",
     desc: `Buket spesial yang bukan cuma cantik, tapi juga berisi kejutan istimewa 💸✨
     Perpaduan uang pecahan yang dirangkai cantik dengan sentuhan bunga pastel elegan membuat buket ini terlihat mewah, unik, dan pastinya bikin penerima super happy!
@@ -160,7 +162,7 @@ Cocok banget untuk hadiah wisuda, ulang tahun, anniversary, atau bentuk apresias
     badge: "Bestseller",
     badgeColor: "text-primary",
     categories: ["anniversary", "birthday", "graduation"],
-    slug: "brown-money",
+    slug: "luxury-money-bouquet-elegant",
     size: `Tinggi: ±45–50 cm
     Lebar: ±35–40 cm
     Ukuran pas untuk dipeluk dan difoto 📸✨`,
@@ -177,88 +179,130 @@ Cocok banget untuk hadiah wisuda, ulang tahun, anniversary, atau bentuk apresias
     Finishing clean, rapi, dan terlihat eksklusif 💎`,
   },
   {
-    title: "Silver Money",
+    title: "Silver Luxe Money Bouquet",
     price: "Rp 70.000 - Rp 150.000",
-    desc: "Buket uang puluhan ribu.",
+    desc: `Hadiah elegan dengan sentuhan mewah dan penuh makna 💐✨
+    Buket ini memadukan rangkaian uang pecahan yang ditata rapi dengan dekorasi bunga premium bernuansa soft silver & pastel. Tampilannya clean, classy, dan terlihat eksklusif — cocok untuk momen spesial yang nggak mau biasa-biasa saja.
+
+    Ideal untuk wisuda, ulang tahun, lamaran, anniversary, atau hadiah apresiasi untuk orang tersayang.
+    Karena memberi itu bukan hanya tentang nilai, tapi juga tentang kesan 💖`,
     img: "/images/buket-5.webp",
     badge: "Bestseller",
     badgeColor: "text-primary",
     categories: ["wedding", "graduation"],
-    slug: "silver-money",
-    size: "45cm x 35cm",
-    composition:
-      "5 Sarah Bernhardt Peonies, 3 Eucalyptus Sprigs, White Astrantia, and Waxflower.",
-    wrapper: "Premium Korean Wrapping Paper",
+    slug: "silver-luxe-money-bouquet",
+    size: `Tinggi: ±45–50 cm
+    Lebar: ±35–40 cm
+    Ukuran pas untuk dipeluk dan difoto 📸✨`,
+    composition: `Uang pecahan (nominal bisa custom sesuai request),
+    Bunga artificial premium (rose & filler dekoratif),
+    Daun dan aksen kupu-kupu dekoratif,
+    Kartu ucapan mini (bisa custom nama & pesan),
+    Pita satin premium,
+    (Nominal uang dan jumlah lembar bisa disesuaikan with budget.)`,
+    wrapper: `Wrapping premium warna nude / mocha,
+    Aksen list silver elegan,
+    Lapisan pelindung transparan,
+    Pita satin warna senada,
+    Finishing clean, rapi, dan terlihat eksklusif 💎`,
   },
   {
-    title: "White Flower",
+    title: "Pure Elegance: White Daisy Art Bouquet",
     price: "Rp 70.000 - Rp 150.000",
-    desc: "Buket uang puluhan ribu.",
+    desc: `Buket bunga artifisial premium yang menonjolkan kecantikan bunga Daisy putih dengan detail kelopak yang lembut dan pusat bunga berwarna kuning cerah. 
+    Desainnya yang mengembang (full volume) memberikan kesan megah namun tetap ringan dipandang. Karena menggunakan bunga artifisial berkualitas, buket ini tidak akan layu dan bisa menjadi kenangan yang tersimpan selamanya.`,
     img: "/images/buket-6.webp",
     badge: "Bestseller",
     badgeColor: "text-primary",
     categories: ["wedding", "graduation", "birthday", "anniversary"],
-    slug: "white-flower",
+    slug: "pure-elegance-white-daisy-art-bouquet",
     size: "45cm x 35cm",
-    composition:
-      "5 Sarah Bernhardt Peonies, 3 Eucalyptus Sprigs, White Astrantia, and Waxflower.",
-    wrapper: "Premium Korean Wrapping Paper",
+    composition: `Buket cantik ini terdiri dari elemen-elemen pilihan:
+    Bunga Utama: ±15-18 tangkai bunga Daisy putih (artifisial),
+    Aksen: Rangkaian bunga kering (dried flower) Caspea atau sejenisnya untuk menambah tekstur alami,
+    Detail: Pita satin ganda berwarna putih dengan aksen garis emas yang mewah.`,
+    wrapper: `Wrapping premium warna nude / mocha,
+    Aksen list silver elegan,
+    Lapisan pelindung transparan,
+    Pita satin warna senada,
+    Finishing clean, rapi, dan terlihat eksklusif 💎`,
   },
   {
-    title: "White Yellow Flower",
+    title: "Moonlight Daisy Garden Bouquet",
     price: "Rp 70.000 - Rp 150.000",
-    desc: "Buket uang puluhan ribu.",
+    desc: `Buket bunga Daisy artifisial premium dengan susunan yang lebih rapat dan melebar, menciptakan efek "taman bunga" dalam satu genggaman. Produk ini sangat cocok bagi Anda yang menyukai tampilan buket yang full dan bervolume. Karena menggunakan bunga artifisial, buket ini tahan lama dan sangat pas untuk dijadikan pajangan dekoratif setelah acara selesai.`,
     img: "/images/buket-7.webp",
     badge: "Bestseller",
     badgeColor: "text-primary",
     categories: ["graduation", "birthday", "anniversary"],
-    slug: "white-yellow-flower",
+    slug: "moonlight-daisy-garden-bouquet",
     size: "45cm x 35cm",
-    composition:
-      "5 Sarah Bernhardt Peonies, 3 Eucalyptus Sprigs, White Astrantia, and Waxflower.",
-    wrapper: "Premium Korean Wrapping Paper",
+    composition: `Buket cantik ini terdiri dari elemen-elemen pilihan:
+    Bunga Utama: ±15-18 tangkai bunga Daisy putih (artifisial),
+    Aksen: Rangkaian bunga kering (dried flower) Caspea atau sejenisnya untuk menambah tekstur alami,
+    Detail: Pita satin ganda berwarna putih dengan aksen garis emas yang mewah.`,
+    wrapper: `Wrapping premium warna nude / mocha,
+    Aksen list silver elegan,
+    Lapisan pelindung transparan,
+    Pita satin warna senada,
+    Finishing clean, rapi, dan terlihat eksklusif 💎`,
   },
   {
-    title: "Money & Yellow Flower",
+    title: "Golden Wealth Money Bouquet (Buket Uang Eksklusif)",
     price: "Rp 70.000 - Rp 150.000",
-    desc: "Buket uang puluhan ribu.",
+    desc: "Kombinasi sempurna antara nilai guna dan estetika. Buket uang ini dirangkai melingkar menyerupai kipas yang megah, dihiasi dengan mawar berwarna nude/champagne yang elegan. Solusi hadiah praktis yang dijamin membuat penerimanya merasa sangat dihargai.",
     img: "/images/buket-8.webp",
     badge: "Bestseller",
     badgeColor: "text-primary",
     categories: ["wedding", "birthday", "anniversary"],
-    slug: "money-yellow-flower",
-    size: "45cm x 35cm",
-    composition:
-      "5 Sarah Bernhardt Peonies, 3 Eucalyptus Sprigs, White Astrantia, and Waxflower.",
-    wrapper: "Premium Korean Wrapping Paper",
+    slug: "golden-wealth-money-bouquet",
+    size: "45cm x 50cm",
+    composition: `Komponen Utama: Lembaran uang kertas (jumlah bisa kustom) yang disusun melingkar rapi.
+    Bunga: 5-6 tangkai bunga Mawar artifisial berwarna Champagne/Nude.
+    Aksen: Dried baby's breath dan daun pakis kering untuk kesan rustik-modern.
+    Detail: Kartu ucapan bulat di titik sentral buket dan pita satin krem yang senada.`,
+    wrapper: `Wrapping premium warna nude / mocha,
+    Aksen list silver elegan,
+    Lapisan pelindung transparan,
+    Pita satin warna senada,
+    Finishing clean, rapi, dan terlihat eksklusif 💎`,
   },
   {
-    title: "Black Yellow Flower",
+    title: "The Gentleman's Gift: Watch & Rose Bouquet",
     price: "Rp 70.000 - Rp 150.000",
-    desc: "Buket uang puluhan ribu.",
+    desc: `Buket eksklusif yang menggabungkan kemewahan jam tangan dengan estetika bunga artifisial. Dirancang khusus dengan nuansa gelap dan holografik untuk memberikan kesan maskulin, elegan, dan premium. Hadiah ini sangat sempurna untuk kado wisuda kekasih, kado ulang tahun suami, atau penghargaan atas pencapaian karir seseorang yang spesial.`,
     img: "/images/buket-9.webp",
     badge: "Bestseller",
     badgeColor: "text-primary",
     categories: ["birthday", "graduation", "anniversary"],
-    slug: "black-yellow-flower",
-    size: "45cm x 35cm",
-    composition:
-      "5 Sarah Bernhardt Peonies, 3 Eucalyptus Sprigs, White Astrantia, and Waxflower.",
-    wrapper: "Premium Korean Wrapping Paper",
+    slug: "the-gentlemans-gift-watch-and-rose-bouquet",
+    size: "45cm x 50cm",
+    composition: `Item Utama: 1 unit Jam Tangan (tergantung pilihan/kustom) yang dipasang dengan aman di tengah rangkaian.
+    Bunga: 5 kuntum bunga mawar artifisial berwarna cream/champagne yang memberikan kontras lembut.
+    Aksen: Daun pakis plastik, bunga baby's breath putih, dan ranting kering untuk kesan artistik.
+    Aksesori: Papan ucapan akrilik hitam kustom dengan tulisan hand-lettering berwarna putih.
+    Pita: Pita satin ganda berwarna nude yang senada dengan warna bunga.`,
+    wrapper: `Material Utama: Premium Black Matte Cellophane dengan pinggiran bergelombang (scalloped edge).
+    Material Aksen: Kertas Iridescent/Holographic yang memantulkan warna pelangi saat terkena cahaya, menambah kesan futuristik dan mewah.
+    Teknik: Multi-layered wrapping yang kokoh untuk menopang beban jam tangan dan kotak kemasannya.`,
   },
   {
-    title: "Flower & Money",
+    title: "The Royal Fortune: Warm Earth Money Bouquet",
     price: "Rp 70.000 - Rp 150.000",
-    desc: "Buket uang puluhan ribu.",
+    desc: `Definisi kado mewah yang menggabungkan nilai fungsi dan estetika tingkat tinggi. Buket uang ini disusun dengan teknik spread-out yang membuatnya terlihat sangat besar, megah, dan prestisius. Dengan sentuhan bunga lili dan mawar di bagian centerpiece, buket ini adalah pilihan utama untuk hadiah lamaran, kado ulang tahun orang tua, atau perayaan anniversary yang berkesan.`,
     img: "/images/buket-10.webp",
     badge: "Bestseller",
     badgeColor: "text-primary",
     categories: ["birthday", "graduation", "anniversary"],
-    slug: "flower-and-money",
-    size: "45cm x 35cm",
-    composition:
-      "5 Sarah Bernhardt Peonies, 3 Eucalyptus Sprigs, White Astrantia, and Waxflower.",
-    wrapper: "Premium Korean Wrapping Paper",
+    slug: "the-royal-fortune-warm-earth-money-bouquet",
+    size: "45cm x 50cm",
+    composition: `Item Utama: ±20 lembar uang kertas (nominal dapat disesuaikan) yang disusun rapi membentuk kipas raksasa.
+    Bunga Centerpiece: Perpaduan bunga Lili besar berwarna marun, bunga mawar merah muda, dan bunga melati putih artifisial.
+    Aksen: Daun hijau segar dan bunga-bunga kecil sebagai pengisi (filler) untuk mempermanis tampilan bawah.
+    Pita: Pita satin berwarna merah muda lembut (soft pink) yang menjuntai cantik.`,
+    wrapper: `Material: Premium Matte Cellophane yang tebal dan eksklusif.
+    Warna: Perpaduan gradasi warna Terracotta, Nude Brown, dan sedikit sentuhan Cream. Warna-warna earth tone ini dipilih untuk memberikan kesan yang hangat, tulus, namun tetap terlihat sangat mahal.
+    Teknik: Volume Wrapping dengan lipatan berlapis-lapis untuk memastikan buket tetap kokoh meskipun memiliki ukuran yang sangat lebar.`,
   },
 ];
 
